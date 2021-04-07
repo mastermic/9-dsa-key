@@ -1,3 +1,15 @@
+# Attaque sur DSA
+
+## Problème
+
+Le fichier `main.gp` contient une clef publique DSA `[g,q,X]`,
+ainsi qu'une fonction permettant de vérifier la validité d'une signature
+`[h(m),r,s]`.
+
+Le fichier `input.txt` contient un certain nombre de signatures DSA,
+obtenues pour des entiers $k<10^10$.
+
+On demande de retrouver la clef privée `x`.
 
 ## Format
 
